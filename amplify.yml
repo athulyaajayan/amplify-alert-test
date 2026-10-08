@@ -4,7 +4,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "Testing Amplify failure monitoring"
+        - echo "Testing Amplify failure Monitoring"
 
     build:
       commands:
