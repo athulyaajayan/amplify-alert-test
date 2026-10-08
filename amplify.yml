@@ -1,0 +1,17 @@
+version: 1
+
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Testing Amplify failure monitoring"
+
+    build:
+      commands:
+        - echo "This deployment should fail"
+        - exit 1
+
+  artifacts:
+    baseDirectory: /
+    files:
+      - '**/*'
